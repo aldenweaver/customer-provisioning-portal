@@ -1,17 +1,11 @@
 import { observable } from 'mobx';
 
-class AppState {
-  @observable timer = 0;
+export default class AppState {
+  @observable customersStore;
+  @observable adminContext;
 
   constructor() {
-    setInterval(() => {
-      this.timer += 1;
-    }, 1000);
-  }
 
-  resetTimer() {
-    this.timer = 0;
   }
 }
 
-export default AppState;
