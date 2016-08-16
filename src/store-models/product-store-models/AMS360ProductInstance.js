@@ -5,7 +5,7 @@ import ProductStoreModel from '../ProductInstance';
 use('strict');
 
 @observer
-export default class AMS360ProductStoreModel extends ProductStoreModel {
+export default class AMS360ProductInstance extends ProductStoreModel {
     constructor() {
         super();
     }

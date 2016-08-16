@@ -5,7 +5,7 @@ import ProductStoreModel from '../ProductInstance';
 use('strict');
 
 @observer
-export default class eSignatureProductStoreModel extends ProductStoreModel {
+export default class eSignatureProductInstance extends ProductStoreModel {
     constructor() {
         super();
     }

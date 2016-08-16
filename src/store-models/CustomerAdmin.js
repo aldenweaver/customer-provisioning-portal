@@ -3,7 +3,7 @@ import { observable, observer } from 'mobx';
 use('strict');
 
 @observer
-export default class CustomerAdminStoreModel {
+export default class CustomerAdmin {
     @observable adminID;
     @observable customerID;
     @observable email;
