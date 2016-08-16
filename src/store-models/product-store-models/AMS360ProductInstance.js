@@ -1,6 +1,6 @@
 import { observable, observer } from 'mobx';
 
-import ProductStoreModel from '../ProductStoreModel';
+import ProductStoreModel from '../ProductInstance';
 
 use('strict');
 
