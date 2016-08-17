@@ -4,7 +4,7 @@ use('strict');
 
 @observer
 export default class User {
-    @observable userID;
+    @observable id;
     @observable customerID;
     @observable email;
     @observable password;
@@ -12,5 +12,23 @@ export default class User {
 
     constructor() {
 
+    }
+
+    @computed get asJson() {
+        return {
+            id: this.id,
+            customerID: this.customerID,
+            email: this.email,
+            password: this.password,
+            productIDs: this.productIDs
+        }
+    }
+
+    updateFromJson(json){
+        this.id = json.id;
+        this.customerID = json.customerID;
+        this.email = json.email;
+        this.password = json.password;
+        this.productIDs = json.productIDs;
     }
 }
