@@ -1,6 +1,6 @@
-import { observable, observer } from 'mobx';
-
-use('strict');
+import { observable, action, useStrict } from 'mobx';
+import { observer } from 'mobx-react';
+useStrict(true);
 
 @observer
 export default class AdminContextStore {

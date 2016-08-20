@@ -1,6 +1,7 @@
-import { observable, observer } from 'mobx';
+import { observable, action, useStrict } from 'mobx';
+import { observer } from 'mobx-react';
+useStrict(true);
 
-use('strict');
 
 @observer
 export default class CustomersStore {

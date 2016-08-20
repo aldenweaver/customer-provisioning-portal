@@ -1,6 +1,6 @@
-import { observable, observer } from 'mobx';
+import { observable, observer, useStrict } from 'mobx';
+useStrict(true);
 
-use('strict');
 
 @observer
 export default class ProductInstance {
