@@ -2,7 +2,7 @@ Customer Provisioning Portal
 =====================
 
 A portal for an administrator to create customers, add users and products to customers, and grant product access to customers.
-Created with React, MobX, ES6, Babel, Webpack.
+Created with React, MobX, ES6, Babel, Webpack. (Project cancelled by PMs due to resource reallocation.)
 
 
 ### To Run
